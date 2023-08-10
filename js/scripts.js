@@ -50,8 +50,8 @@ function pauseTimer() {
 
 function resumeTimer() {
     isPaused = false;
-    pauseBtn.style.display = "block";
     pauseBtn.style.display = "inline-block";
+    resumeBtn.style.display = "none";
 }
 
 function resetTimer() {
